@@ -1,0 +1,58 @@
+ 
+let age = 1
+let name = "Monkey";
+let result = 10 * (20 / 2);
+let myArray = [1, 2, 3 ,4 , 5];
+let thorsten = {"name:", "Toresten, "age:" 28};
+
+// mArry[0]
+// thorsten["name"]
+
+let add = fn(a, b){ return a+b; };
+
+let add = fn(a, b){ a+b; };
+
+add(1 + 2);
+
+let finonacci = fx(x) {
+    if (x==0) {
+        0
+    } else {
+        if (x==1) {
+            1
+        } else {
+            fibonacci(x-1) + fibonacci(x - 2);
+        }
+    }
+};
+
+//?고차함수: In a function(), another function() is regarded as an argument
+//?일급함수: A function is just a value.
+let twice = fn(f, x) {
+    return = f(f(x));
+};
+
+let addTwo = fn(x) {
+    return x + 2;
+}
+
+twice(addTwo, 2); //6
+
+REPL
+- Read-Eval-Print-Loop
+
+Interpreter
+- Lexer
+- Parser
+- AST
+    - Abstraction Syntax Tree
+- Internal object system
+- Evaluator
+gofmt
+- Universal format
+- Internal test framework
+
+TDD
+
+
+
